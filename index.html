@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FlashNews</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/3ed3cdd86c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <!-- header -->
+    <section class="header">
+      <header>
+        <div class="container-fluid background" id="social">
+          <div
+            class="container p-0 d-flex justify-content-between align-items-center"
+          >
+            <div>
+              <p class="sub_font text-white p-0 m-0">
+                FLESH NEWS: Star Wars Episode VII: The Force Awakens,2015
+                :"Chewle, we're home."<i
+                  class="fa-solid fa-angle-left fa-sm ps-4"
+                  style="color: #fafcff"
+                  ><i
+                    class="fa-solid fa-pause fa-lg mx-2"
+                    style="color: #ffffff"
+                  ></i></i
+                ><i
+                  class="fa-solid fa-angle-right fa-sm"
+                  style="color: #fafcff"
+                ></i>
+              </p>
+            </div>
+            <div class="p-1">
+              <a href="">
+                <i
+                  class="fa-brands fa-facebook-f fa-sm"
+                  style="color: #ffffff"
+                ></i
+              ></a>
+              <a href=""
+                ><i
+                  class="fa-brands fa-instagram fa-sm mx-2"
+                  style="color: #ffffff"
+                ></i
+              ></a>
+              <a href=""
+                ><i
+                  class="fa-brands fa-twitter fa-sm"
+                  style="color: #ffffff"
+                ></i></a
+              >>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid text-center p-0 m-0 headerlogo">
+          <a href="">
+            <img src="/accesiores/logo.png" alt="" />
+          </a>
+          <p class="sub_font m-0">Saturday,30 July 2023 - 13 Muharram 1445</p>
+        </div>
+
+        <nav class="navbar navbar-expand-lg bg-dark-tertiary p-0 mx-lg-5">
+          <div class="container-fluid border-top border-dark border-3 p-1">
+            <div class="navlogo py-1">
+              <img src="/accesiores/logo.png" alt="" class="w-50" />
+            </div>
+            <button
+              class="navbar-toggler h-100"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarScroll"
+              aria-controls="navbarScroll"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-center"
+              id="navbarScroll"
+            >
+              <ul
+                class="navbar-nav my-lg-0 navbar-nav-scroll navfont"
+                style="--bs-scroll-height: 100px"
+              >
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="Homepage.html"
+                    >HOME</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">LATEST</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">PAKISTAN</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">BUSINESS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">WORLD</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">OPINION</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">SCI-TECH</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">PHONES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">LIFE & STYLE</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">T-MAGAZINE</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">T.EDIT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">SPORTS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">CRICKET</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">BLOGS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">VIDEOS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">SIDESHOW</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">ARCHIVE</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">OTHER</a>
+                </li>
+              </ul>
+              <div class=" ">
+                <span class="d-flex align-items-center navfont">
+                  <a class="nav-link ps-lg-5 ms-lg-4" href="#" id="search"
+                    >SEARCH</a
+                  >
+                  <input type="search" class="inp ms-lg-4" id="in" />
+                  <i
+                    onclick="myFunction()"
+                    class="fa-solid fa-magnifying-glass fa-lg fntransform ps-1"
+                    id="inp"
+                    style="color: #f63809"
+                  ></i>
+                </span>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+    </section>
+    <section class="banner mx-lg-5">
+      <div class="container-fluid py-4 bo">
+        <div class="container-lg text-center">
+          <img src="/accesiores/banner.png" class="banpic" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="pakistan mx-lg-4">
+      <div class="container-fluid">
+        <div class="row">
+          <!-- first area -->
+          <div class="col-lg-9 ps-lg-4 pe-lg-3">
+            <div class="row">
+              <div class="col-lg-7">
+                <div><img src="/accesiores/1.png " class="w-100" alt="" /></div>
+                <h3 class="fw-bolder fs-3 pt-2">
+                  Pakistan, China revive CPEC Phase-11
+                </h3>
+                <p class="sub_font1 pt-1 text-secondary sub_font">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. elit.
+                  elit iusto quis explicabo enim illo quae unde vel dolores
+                  voluptates, quisquam mollitia laudantium incidunt nisi
+                  temporibus.quisquam mollitia laudantium incidunt nisi
+                  temporibus.quisquam mollitia laudantium incidunt nisi
+                  temporibus..
+                </p>
+                <p class="card-text pb-2 sub_font3">
+                  <small class="text-body-dark">Updated 8 hour ago</small>
+                </p>
+              </div>
+              <div class="col-lg-5 ps-lg-4">
+                <div class="card mb-2 border-0 border-bottom" style="">
+                  <div class="row g-0">
+                    <div class="col-lg-5 pb-2">
+                      <img src="/accesiores/ss.png" class="w-100" alt="..." />
+                    </div>
+                    <div class="col-lg-7">
+                      <div class="card-body p-0 ps-3">
+                        <h6 class="card-title fw-bolder sub_font2">
+                          Pakistan,China agree on CPEC's centrality for
+                          socioeconomic uplift; resolve to shareed objective
+                        </h6>
+                        <p class="card-text pb-2 sub_font3">
+                          <small class="text-body-secondary"
+                            >Updated 8 hour ago</small
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-2 border-0 border-bottom" style="">
+                  <div class="row g-0">
+                    <div class="col-lg-5 pb-2">
+                      <img src="/accesiores/ss.png" class="w-100" alt="..." />
+                    </div>
+                    <div class="col-lg-7">
+                      <div class="card-body p-0 ps-3">
+                        <h6 class="card-title fw-bolder sub_font2">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Optio, ex harum.
+                        </h6>
+                        <p class="card-text pb-2 sub_font3">
+                          <small class="text-body-secondary"
+                            >Updated 8 hour ago</small
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-2 border-0 border-bottom" style="">
+                  <div class="row g-0">
+                    <div class="col-lg-5 pb-2">
+                      <img src="/accesiores/ss.png" class="w-100" alt="..." />
+                    </div>
+                    <div class="col-lg-7">
+                      <div class="card-body p-0 ps-3">
+                        <h6 class="card-title fw-bolder sub_font2">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Optio, ex harum.
+                        </h6>
+                        <p class="card-text pb-2 sub_font3">
+                          <small class="text-body-secondary"
+                            >Updated 8 hour ago</small
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-2 border-0 border-bottom" style="">
+                  <div class="row g-0">
+                    <div class="col-lg-5 pb-2">
+                      <img src="/accesiores/ss.png" class="w-100" alt="..." />
+                    </div>
+                    <div class="col-lg-7">
+                      <div class="card-body p-0 ps-3">
+                        <h6 class="card-title fw-bolder sub_font2">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Optio, ex harum.
+                        </h6>
+                        <p class="card-text pb-2 sub_font3">
+                          <small class="text-body-secondary"
+                            >Updated 8 hour ago</small
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="container-fluid p-0 text-end">
+                  <a href="" class="text-danger text-decoration-none sub_font3"
+                    >VIEW NEW UPDATES</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="container-fluid p-0 pt-4">
+              <h3 class="fw-bolder heading pb-3 fs-2 pt-3">Pakistan</h3>
+              <div class="row">
+                <div class="col-lg-6">
+                  <img src="/accesiores/speach.png" alt="" class="w-100 p-0" />
+                </div>
+                <div class="col-lg-6">
+                  <h3 class="fw-bolder me-3">
+                    PM Shehaz calls for elections under new census
+                  </h3>
+                  <h6 class="py-lg-4 sub_font3 text-dark m-0">
+                    Updated 16 hour ago
+                  </h6>
+                  <p class="sub_font1 text-secondary me-3">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Similique ab odio nemo dolorum voluptatum voluptatem sunt
+                    possimus ipsum fugit perferendis nesciunt impedit quam quae,
+                    voluptate ducimus enim? Soluta unde facilis illum ratione
+                    ipsa ad, aspernatur cupiditate corporis neque, animi
+                    praesentium a cumque nemo quaerat dolor tempora dignissimos
+                    pariatur, natus provident?
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid p-0 py-3">
+              <div class="row">
+                <div class="col-lg-4">
+                  <img src="/accesiores/2.png" alt="" class="w-100" />
+                  <h6 class="fw-bolder mt-lg-3 fs-5">
+                    Prevent transnational terror from breeding on your soil,PM
+                    warns Afganistan
+                  </h6>
+                  <h6 class="sub_font3">Update 3 hour ago</h6>
+                </div>
+                <div class="col-lg-4">
+                  <img src="/accesiores/2.png" alt="" class="w-100" />
+                  <h6 class="fw-bolder mt-lg-3 fs-5">
+                    Prevent transnational terror from breeding on your soil,PM
+                    warns Afganistan
+                  </h6>
+                  <h6 class="sub_font3">Update 3 hour ago</h6>
+                </div>
+                <div class="col-lg-4">
+                  <img src="/accesiores/2.png" alt="" class="w-100" />
+                  <h6 class="fw-bolder mt-lg-3 fs-5">
+                    Prevent transnational terror from breeding on your soil,PM
+                    warns Afganistan
+                  </h6>
+                  <h6 class="sub_font3">Update 3 hour ago</h6>
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid p-0 text-end">
+              <a href="" class="text-danger text-decoration-none sub_font3"
+                >SEE MORE<i
+                  class="fa-solid fa-share fa-lg ps-1"
+                  style="color: #f03c0f"
+                ></i
+              ></a>
+            </div>
+            <div class="container-fluid p-0 py-5 ps-lg-3">
+              <img src="/accesiores/slider.png" alt="" class="w-100" />
+            </div>
+            <div class="container-fluid p-0">
+              <h2 class="fw-bolder heading fs-2">Lifestyle</h2>
+              <div class="row pe-lg-2">
+                <div class="col-lg-7">
+                  <h3 class="fw-bolder pt-4">
+                    12-member full board to decide 'Barbie's' fate in Punjab
+                    today
+                  </h3>
+                  <p class="sub_font1 pt-3">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Dignissimos accusantium nihil, quia provident dolorum modi
+                    enim ullam et autem nisi. Iste dignissimos quod fugiat qui
+                    doloremque, facere possimus harum na Lorem ipsum dolor sit
+                    amet consectetur adipisicing elit. Voluptatibus, tenetur
+                    nisi! Suscipit in veritatis voluptates enim similique quas
+                    saepe quidem.
+                  </p>
+                </div>
+                <div class="col-lg-5 p-lg-0">
+                  <img src="/accesiores/barbie.png" alt="" class="w-100" />
+                </div>
+                <!-- cards -->
+                <div class="container-fluid p-lg-0">
+                  <div class="row justify-content-center pt-4 ms-lg-1">
+                    <div class="col-lg-4">
+                      <div class="card mb-3" style="">
+                        <div class="row g-0">
+                          <div class="col-lg-6">
+                            <img
+                              src="/accesiores/chor.png"
+                              class="w-100 p-lg-2"
+                              alt="..."
+                            />
+                          </div>
+                          <div class="col-lg-6">
+                            <div class="card-body p-0 pt-3 px-1">
+                              <h6 class="p-0 fw-bolder">
+                                'Euphoria' actor Angus Cloud Dies at 25
+                              </h6>
+                              <p class="card-text">
+                                <small class="text-body-secondary sub_font3"
+                                  >Last updated 3 mins ago</small
+                                >
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="card mb-3" style="">
+                        <div class="row g-0">
+                          <div class="col-lg-6">
+                            <img
+                              src="/accesiores/chor.png"
+                              class="w-100 p-lg-2"
+                              alt="..."
+                            />
+                          </div>
+                          <div class="col-lg-6">
+                            <div class="card-body p-0 pt-3 px-1">
+                              <h6 class="p-0 fw-bolder">
+                                'Euphoria' actor Angus Cloud Dies at 25
+                              </h6>
+                              <p class="card-text">
+                                <small class="text-body-secondary sub_font3"
+                                  >Last updated 3 mins ago</small
+                                >
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="card mb-3" style="">
+                        <div class="row g-0">
+                          <div class="col-lg-6">
+                            <img
+                              src="/accesiores/chor.png"
+                              class="w-100 p-lg-2"
+                              alt="..."
+                            />
+                          </div>
+                          <div class="col-lg-6">
+                            <div class="card-body p-0 pt-3 px-1">
+                              <h6 class="p-0 fw-bolder">
+                                'Euphoria' actor Angus Cloud Dies at 25
+                              </h6>
+                              <p class="card-text">
+                                <small class="text-body-secondary sub_font3"
+                                  >Last updated 3 mins ago</small
+                                >
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid p-0 text-end">
+              <a href="" class="text-danger text-decoration-none sub_font3"
+                >SEE MORE<i
+                  class="fa-solid fa-share fa-lg ps-1"
+                  style="color: #f03c0f"
+                ></i
+              ></a>
+            </div>
+            <div class="container-fluid p-0 py-5 ps-lg-3">
+              <img src="/accesiores/slider.png" alt="" class="w-100" />
+            </div>
+            <div class="container-fluid p-0">
+              <h3 class="fw-bolder heading pb-3 fs-2">Sport</h3>
+              <div class="row">
+                <div class="col-lg-6">
+                  <img src="/accesiores/pk.png" alt="" class="w-100 p-0" />
+                </div>
+                <div class="col-lg-6">
+                  <h3 class="fw-bolder">
+                    PCB agrees to reschedule two Pakistan's World Cup matches
+                  </h3>
+                  <h6 class="py-lg-4">Updated 16 hour ago</h6>
+                  <p class="sub_font1">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Similique ab odio nemo dolorum voluptatum voluptatem sunt
+                    possimus ipsum fugit perferendis nesciunt impedit quam quae,
+                    voluptate ducimus enim? Soluta unde facilis illum ratione
+                    ipsa ad, aspernatur cupiditate corporis neque, animi
+                    praesentium a cumque nemo quaerat dolor tempora dignissimos
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid p-0 py-3">
+              <div class="row">
+                <div class="col-lg-4">
+                  <img src="/accesiores/pkk.png" alt="" class="w-100" />
+                  <h6 class="fw-bolder pt-3">
+                    Prevent transnational terror from breeding on your soil,PM
+                    warns Afganistan
+                  </h6>
+                  <h6 class="sub_font3">Update 3 hour ago</h6>
+                </div>
+                <div class="col-lg-4">
+                  <img src="/accesiores/pkk.png" alt="" class="w-100" />
+                  <h6 class="fw-bolder pt-3">
+                    Prevent transnational terror from breeding on your soil,PM
+                    warns Afganistan
+                  </h6>
+                  <h6 class="sub_font3">Update 3 hour ago</h6>
+                </div>
+                <div class="col-lg-4">
+                  <img src="/accesiores/pkk.png" alt="" class="w-100" />
+                  <h6 class="fw-bolder pt-3">
+                    Prevent transnational terror from breeding on your soil,PM
+                    warns Afganistan
+                  </h6>
+                  <h6 class="sub_font3">Update 3 hour ago</h6>
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid p-0 text-end">
+              <a href="" class="text-danger text-decoration-none sub_font3"
+                >SEE MORE<i
+                  class="fa-solid fa-share fa-lg ps-1"
+                  style="color: #f03c0f"
+                ></i
+              ></a>
+            </div>
+            <div class="container-fluid p-0 py-5 ps-lg-3">
+              <img src="/accesiores/slider.png" alt="" class="w-100" />
+            </div>
+
+            <div class="container-fluid p-0">
+              <h2 class="fw-bolder heading">Trending on social media</h2>
+              <div class="row">
+                <div class="col-lg-3">
+                  <div class="card border-0" style="">
+                    <img src="/accesiores/ranveer.png" class="pt-2" alt="..." />
+                    <div class="card-body p-0 pt-2">
+                      <h6 class="p-0 sub_font2 fw-bolder">
+                        Twitter become X:Here's how social media is changing
+                      </h6>
+                      <h6 class="sub_font py-3 sub_font3">
+                        Updated 8 hour ago
+                      </h6>
+                      <p class="sub_font3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptatem praesentium quod autem, consectetur pariatur
+                        dignissimos assumenda a nece.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-9">
+                  <div
+                    class="card mb-3 p-lg-3 bg-light border-0 rounded-0"
+                    style=""
+                  >
+                    <div class="row g-0">
+                      <div class="col-lg-6 bg-white">
+                        <div class="card-body">
+                          <h3 class="fw-bolder">
+                            12-member full board to decide 'Barbie's' fate in
+                            Punjab today
+                          </h3>
+                          <p class="card-text">
+                            <small class="text-body-secondary"
+                              >Lorem ipsum dolor sit amet consectetur
+                              adipisicing elit. Laudantium ut, nobis odio
+                              temporibus quasi et odit quas at commodi.</small
+                            >
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <img
+                          src="/accesiores/barbie2.png"
+                          class="w-100"
+                          alt="..."
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <div class="card mb-3" style="">
+                        <div class="row g-0">
+                          <div class="col-lg-6">
+                            <img
+                              src="/accesiores/chor.png"
+                              class="w-100 p-lg-2"
+                              alt="..."
+                            />
+                          </div>
+                          <div class="col-lg-6">
+                            <div class="card-body p-0 ps-2 pt-3">
+                              <h6 class="p-0 fw-bolder">
+                                'Euphoria' actor Angus Cloud Dies at 25
+                              </h6>
+                              <p class="card-text">
+                                <small class="text-body-secondary sub_font3"
+                                  >Last updated 3 mins ago</small
+                                >
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="card mb-3" style="">
+                        <div class="row g-0">
+                          <div class="col-lg-6">
+                            <img
+                              src="/accesiores/chor.png"
+                              class="w-100 p-lg-2"
+                              alt="..."
+                            />
+                          </div>
+                          <div class="col-lg-6">
+                            <div class="card-body p-0 ps-2 pt-3">
+                              <h6 class="p-0 fw-bolder">
+                                'Euphoria' actor Angus Cloud Dies at 25
+                              </h6>
+                              <p class="card-text">
+                                <small class="text-body-secondary sub_font3"
+                                  >Last updated 3 mins ago</small
+                                >
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid p-0 text-end pb-lg-4">
+              <a href="" class="text-danger text-decoration-none sub_font3"
+                >SEE MORE<i
+                  class="fa-solid fa-share fa-lg ps-1"
+                  style="color: #f03c0f"
+                ></i
+              ></a>
+            </div>
+            <!-- container col-9 end here -->
+          </div>
+          <!-- sidebar -->
+          <div class="col-lg-3 ps-lg-3 pe-lg-4">
+            <div class="container-fluid border-bottom border-dark border-3 p-0">
+              <img src="/accesiores/drama.png" alt="" class="w-100" />
+              <h3 class="pt-3 m-0 pb-2 fw-bolder">WEEKLY POLL</h3>
+            </div>
+            <div class="match d-flex align-items-center">
+              <img src="/accesiores/trofi.png" alt="" class="w-25 px-3 pb-3" />
+              <h5 class="ps-2 fw-bolder py-4 font_color">
+                WHO WILL WIN <br />
+                THE WORLD CUP 2023?
+              </h5>
+            </div>
+            <div class="form d-flex justify-content-around" id="form">
+              <div class="d-flex flex-column align-items-center gap-3">
+                <input type="radio" class="large-radio" />
+                <div>
+                  <img src="/accesiores/flag.png" alt="" width="45px" />
+                  <h6 class="sub_font m-0 text-center p-1">Pak</h6>
+                </div>
+              </div>
+              <div class="d-flex flex-column align-items-center gap-3">
+                <input type="radio" class="large-radio" />
+                <div>
+                  <img src="/accesiores/flag.png" alt="" width="45px" />
+                  <h6 class="sub_font m-0 text-center p-1">Pak</h6>
+                </div>
+              </div>
+              <div class="d-flex flex-column align-items-center gap-3">
+                <input type="radio" class="large-radio" />
+                <div>
+                  <img src="/accesiores/flag.png" alt="" width="45px" />
+                  <h6 class="sub_font m-0 text-center p-1">Pak</h6>
+                </div>
+              </div>
+              <div class="d-flex flex-column align-items-center gap-3">
+                <input type="radio" class="large-radio" />
+                <div>
+                  <img src="/accesiores/flag.png" alt="" width="45px" />
+                  <h6 class="sub_font m-0 text-center p-1">Pak</h6>
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid p-0 border-bottom border-3 border-dark">
+              <div class="container-fluid border-2 border pt-3 pb-4 mt-4">
+                <div class="container text-center p-2 bg-light">
+                  <h3 class="fw-bolder text-dark m-0">Currency Rate</h3>
+                </div>
+
+                <div id="carouselExample" class="carousel carousel-dark slide">
+                  <div class="carousel-inner pt-3">
+                    <div class="carousel-item active text-center">
+                      <h5 class="fw-bolder m-0 pb-1">292.5</h5>
+                      <h6 class="m-0 sub_font">US Dollar</h6>
+                    </div>
+                    <div class="carousel-item text-center">
+                      <h5 class="fw-bolder m-0 pb-1">250.5</h5>
+                      <h6 class="m-0 sub_font">US Dollar</h6>
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExample"
+                    data-bs-slide="prev"
+                  >
+                    <i
+                      class="fa-solid fa-angle-left"
+                      style="color: #101319"
+                    ></i>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next text-dark"
+                    type="button"
+                    data-bs-target="#carouselExample"
+                    data-bs-slide="next"
+                  >
+                    <i
+                      class="fa-solid fa-angle-right"
+                      style="color: #101319"
+                    ></i>
+
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+              <div class="container p-2 border border-2 mt-4">
+                <img src="/accesiores/weather.png" alt="" class="w-100" />
+              </div>
+
+              <div class="container-fluid border-2 border pt-3 pb-4 mt-4">
+                <div class="container text-center p-2 bg-light">
+                  <h3 class="fw-bolder text-dark m-0">Gold Rate</h3>
+                </div>
+
+                <div id="gold" class="carousel carousel-dark slide">
+                  <div class="carousel-inner pt-3">
+                    <div class="carousel-item active text-center">
+                      <h5 class="fw-bolder m-0 pb-1">Rs.218000</h5>
+                      <h6 class="m-0 sub_font">24K GOLD / TOLA</h6>
+                    </div>
+                    <div class="carousel-item text-center">
+                      <h5 class="fw-bolder m-0 pb-1">292.5</h5>
+                      <h6 class="m-0 sub_font">US Dollar</h6>
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#gold"
+                    data-bs-slide="prev"
+                  >
+                    <i
+                      class="fa-solid fa-angle-left"
+                      style="color: #101319"
+                    ></i>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next text-dark"
+                    type="button"
+                    data-bs-target="#gold"
+                    data-bs-slide="next"
+                  >
+                    <i
+                      class="fa-solid fa-angle-right"
+                      style="color: #101319"
+                    ></i>
+
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+              <h3 class="fw-bolder pt-4 pb-2">BLOGS</h3>
+            </div>
+
+            <!-- Blog session -->
+
+            <div class="container-fluid mt-4 p-0">
+              <div class="container-fluid p-0">
+                <img src="/accesiores/visa.png" alt="" class="w-100" />
+                <h4 class="fw-bolder py-2 pt-4">
+                  The Pakistani passport: A tale of restiricted mobility
+                </h4>
+                <h6 class="sub_font3">Updated 16 hours ago</h6>
+              </div>
+              <div class="card mb-3 border-0" style="">
+                <div class="row g-0 pt-lg-3">
+                  <div class="col-lg-5">
+                    <img
+                      src="/accesiores/pak pot.png"
+                      class="w-100 pe-1"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-lg-7">
+                    <div class="card-body p-0 ps-2">
+                      <h5 class="card-title fw-bolder">
+                        The Pakistani passport: A tale of restiricted mobility
+                      </h5>
+                      <p class="card-text pb-2">
+                        <small class="text-body-secondary"
+                          >updated 8 hour ago</small
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3 border-0" style="">
+                <div class="row g-0">
+                  <div class="col-lg-5">
+                    <img
+                      src="/accesiores/pak pot.png"
+                      class="w-100 pe-1"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-lg-7">
+                    <div class="card-body p-0 ps-2">
+                      <h5 class="card-title fw-bolder">
+                        The Pakistani passport: A tale of restiricted mobility
+                      </h5>
+                      <p class="card-text pb-2">
+                        <small class="text-body-secondary"
+                          >updated 8 hour ago</small
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="container-fluid p-0 border-bottom border-3 border-dark"
+              >
+                <div class="container-fluid border-1 border p-lg-2 mt-4">
+                  <div class="container text-center p-2 bg-light">
+                    <h4 class="fw-bolder text-dark m-0">BLOGER OF THE MONTH</h4>
+                  </div>
+
+                  <div
+                    class="d-flex justify-content-center py-3 align-items-center"
+                  >
+                    <div>
+                      <img
+                        src="/accesiores/profile.png"
+                        alt=""
+                        class="rounded-5 border border-0"
+                      />
+                    </div>
+                    <div>
+                      <h6 class="ps-2 m-0">Hira Mani | Blogger</h6>
+                      <a
+                        href=""
+                        class="text-danger text-decoration-none ps-3 fontsize text-center"
+                        >View all Blogs</a
+                      >
+                    </div>
+                  </div>
+                  <h6 class="fontsize m-0 text-center py-2">
+                    Want to get Recognized? Submit your blogs to us
+                  </h6>
+                  <div class="text-center pb-2">
+                    <button
+                      class="btn sub_font1 bg-danger text-white border-0 rounded-0"
+                    >
+                      SUBMIT YOUR BLOG
+                    </button>
+                  </div>
+                </div>
+
+                <div class="container-fluid p-0 py-4">
+                  <img src="/accesiores/poster.png" alt="" class="w-100" />
+                </div>
+                <h3 class="fw-bolder py-3">MOST READ NEWS</h3>
+              </div>
+            </div>
+            <div class="container-fluid p-0">
+              <div class="container-fluid p-0">
+                <img src="/accesiores/visa.png" alt="" class="w-100" />
+                <h4 class="fw-bolder py-2 pt-4">
+                  The Pakistani passport: A tale of restiricted mobility
+                </h4>
+                <h6 class="sub_font3">Updated 16 hours ago</h6>
+              </div>
+              <div class="card mb-3 border-0" style="">
+                <div class="row g-0 pt-lg-3">
+                  <div class="col-lg-5">
+                    <img
+                      src="/accesiores/pak pot.png"
+                      class="w-100 pe-1"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-lg-7">
+                    <div class="card-body p-0 ps-2">
+                      <h5 class="card-title fw-bolder">
+                        The Pakistani passport: A tale of restiricted mobility
+                      </h5>
+                      <p class="card-text pb-2">
+                        <small class="text-body-secondary"
+                          >updated 8 hour ago</small
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3 border-0" style="">
+                <div class="row g-0">
+                  <div class="col-lg-5">
+                    <img
+                      src="/accesiores/pak pot.png"
+                      class="w-100 pe-1"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-lg-7">
+                    <div class="card-body p-0 ps-2">
+                      <h5 class="card-title fw-bolder">
+                        The Pakistani passport: A tale of restiricted mobility
+                      </h5>
+                      <p class="card-text pb-2">
+                        <small class="text-body-secondary"
+                          >updated 8 hour ago</small
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3 border-0" style="">
+                <div class="row g-0">
+                  <div class="col-lg-5">
+                    <img
+                      src="/accesiores/pak pot.png"
+                      class="w-100 pe-1"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-lg-7">
+                    <div class="card-body p-0 ps-2">
+                      <h5 class="card-title fw-bolder">
+                        The Pakistani passport: A tale of restiricted mobility
+                      </h5>
+                      <p class="card-text pb-2">
+                        <small class="text-body-secondary"
+                          >updated 8 hour ago</small
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3 border-0" style="">
+                <div class="row g-0">
+                  <div class="col-lg-5">
+                    <img
+                      src="/accesiores/pak pot.png"
+                      class="w-100 pe-1"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-lg-7">
+                    <div class="card-body p-0 ps-2">
+                      <h5 class="card-title fw-bolder">
+                        The Pakistani passport: A tale of restiricted mobility
+                      </h5>
+                      <p class="card-text pb-2">
+                        <small class="text-body-secondary"
+                          >updated 8 hour ago</small
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- slider container end here -->
+      </div>
+
+      <!-- footer -->
+      <footer class="mx-lg-4">
+        <div class="container-fluid p-0 border-top border-5 ftcontainer px-4">
+          <div class="container-fluid pt-3" id="ftlogo">
+            <img src="/accesiores/logo.png" alt="" class="w-50" />
+          </div>
+          <div class="row py-5">
+            <div class="col-lg-2 p-0">
+              <div class="d-flex flex-column gap-2">
+                <a href="" class="sub_font1 text-start"
+                  ><h6 class="fw-bold">NEWS</h6></a
+                >
+                <a href="" class="sub_font3 text-start">Pakistan</a>
+                <a href="" class="sub_font3 text-start">Sports</a>
+                <a href="" class="sub_font3 text-start">Lifestyle</a>
+              </div>
+            </div>
+            <div class="col-lg-2 p-0">
+              <div class="d-flex flex-column gap-2">
+                <a href="" class="sub_font1 text-start"
+                  ><h6 class="fw-bold">Daily Information</h6></a
+                >
+                <a href="" class="sub_font3 text-start">Currency</a>
+                <a href="" class="sub_font3 text-start">Gold</a>
+                <a href="" class="sub_font3 text-start">Weather Forecast</a>
+              </div>
+            </div>
+            <div class="col-lg-2 p-0">
+              <div class="d-flex flex-column gap-2">
+                <a href="" class="sub_font1 text-start"
+                  ><h6 class="fw-bold">About Us</h6></a
+                >
+                <a href="" class="sub_font3 text-start">Advertising</a>
+                <a href="" class="sub_font3 text-start">RSS Feed</a>
+                <a href="contact.html" class="sub_font3 text-start"
+                  >Contact Us</a
+                >
+              </div>
+            </div>
+            <div class="col-lg-1 p-0">
+              <div class="d-flex flex-column gap-2 text-start">
+                <a href="" class="sub_font1 text-start"
+                  ><h6 class="fw-bold">Blogger Help</h6></a
+                >
+                <a href="" class="sub_font3 text-start">Submit a Blog</a>
+                <a href="" class="sub_font3 text-start">Become a Blogger</a>
+                <a href="" class="sub_font3 text-start">Code of Ethics</a>
+              </div>
+            </div>
+
+            <div class="col-lg-5 p-0 pt-lg-3 ftlogo ps-4">
+              <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-lg-5">
+                  <img src="/accesiores/logo.png" alt="" class="w-100" />
+                </div>
+                <div class="col-lg-7 p-0">
+                  <p class="sub_font3 ps-3">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Optio provident asperiores reprehenderit cumque neque unde
+                    aut nesciunt qui sed minima at libero d
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+
+    <div
+      class="container-fluid background text-secondary py-3 text-center sub_font1"
+    >
+      (c)2023 Newspaper Pakistan. All right reserved - Policy - Term of Use
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

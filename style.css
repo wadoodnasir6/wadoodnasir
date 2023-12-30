@@ -1,0 +1,194 @@
+*{
+    padding: 0%;
+    margin: 0%;
+
+}
+.sub_font{
+    font-size: 12px;
+    font-weight: 600;
+    /* text-align: justify; */
+}
+.sub_font1{
+    font-size: 14px;
+    /* font-weight: 600; */
+    text-align: justify;
+    text-decoration: none;
+    color: black;
+}
+.sub_font2{
+    font-size: 14px;
+    font-weight: 600;
+    /* text-align:start; */
+}
+.navfont{
+    font-size: 11px;
+    color: black;
+    font-weight:700;
+}
+.fntransform{
+    transform: translateY(-1px);
+    width: 15px;
+
+
+}
+.bo{
+    border-top: 2px solid rgba(0, 0, 0, 0.321) ;
+}
+.heipic{
+    height: 100px;
+
+}
+.large-radio{
+    height: 25px;
+    width: 25px;
+}
+
+.fontsize{
+    font-size: 13px;
+    font-weight: 600;
+
+
+}
+.background{
+    background-color: black;
+}
+#ftlogo{
+    display:none;
+}
+.navlogo{
+    display: none;
+}
+.banpic{
+    width: 1050px;
+}
+.heading{
+    text-underline-offset: 11px;
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+.navfont :hover{
+    color: red;
+}
+.font_color{
+    color: rgb(52,37,109);
+    font-size: 18px;
+}
+.sub_font3{
+    font-size: 11.5px;
+    color: rgba(0, 0, 0, 0.751);
+    text-decoration: none;
+}
+.inp{
+    border: 1px solid rgb(195, 19, 19);
+    border-radius: 10px;
+    width: 90px;
+    display: none;
+    text-decoration: none;
+    outline: none;
+    padding: 0 6px;
+   
+
+}
+#inp{
+    cursor: pointer;
+}
+.archievefont{
+color: #75777a;
+font-size: 14px;
+}
+
+.search{
+    /* display: none; */
+}
+.sendpad{
+padding-top: 86px;
+padding-left: 0%;
+padding-right: 0%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* media qurey for all mobiles */
+@media (max-width: 767px) {
+    
+    .ftlogo{
+        display: none;
+    }
+    .banpic{
+        width: 85vw;
+    }
+    .ftcontainer{
+        justify-content: center;
+    }
+    #ftlogo{
+        display: block;
+    }
+    .headerlogo{
+        display: none;
+    }
+    .ftitem{
+        gap: 2rem;
+    }
+    .navlogo{
+        display: block;
+    }
+    .navfont{
+        font-size: 12px;
+    }
+    .fntransform{
+        transform: translateY(-2px);
+        width: 10px;
+    }
+    #social{
+        display: none;
+    }
+
+
+  }
+  
+  @media (max-width:991px){
+    .navlogo{
+        display: block;
+        width: 300px;
+    }
+    .navfont{
+        font-size: 12px;
+        color: black;
+    }
+    .headerlogo{
+        display: none;
+    }
+    .banpic{
+        width: 85vw;
+    }
+    .ftlogo{
+        display: none;
+    }
+
+  }
+  @media screen and (min-width: 992px) and (max-width: 1392px) {
+    .headerlogo{
+        /* display: block; */
+    }
+    .navfont{
+        font-size: 6px;
+        color: black;
+    }
+  }
+  @media (max-width:1200px){
+    .banpic{
+        width: 79vw;
+
+    }
+}
+  
